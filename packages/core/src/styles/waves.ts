@@ -35,7 +35,7 @@ export const waves: StyleDefinition = {
   name: "waves",
   version: 1,
   label: "Waves",
-  description: "Layered sine waves rolling toward the viewer",
+  description: "Stacked sine waves",
   size: { width: 560, height: 350 },
   render: renderWaves
 };

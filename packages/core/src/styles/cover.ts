@@ -22,7 +22,7 @@ export const cover: StyleDefinition = {
   name: "cover",
   version: 1,
   label: "Cover",
-  description: "Dense 10x6 shape field sized for project covers and banners",
+  description: "10x6 shape grid for project covers and banners",
   size: { width: 560, height: 350 },
   render: renderCover
 };

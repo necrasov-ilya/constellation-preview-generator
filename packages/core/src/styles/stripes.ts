@@ -25,7 +25,7 @@ export const stripes: StyleDefinition = {
   name: "stripes",
   version: 1,
   label: "Stripes",
-  description: "Diagonal bars of varying width and rhythm",
+  description: "Diagonal bars",
   size: { width: 320, height: 320 },
   render: renderStripes
 };

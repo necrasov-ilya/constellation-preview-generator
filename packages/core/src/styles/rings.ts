@@ -31,7 +31,7 @@ export const rings: StyleDefinition = {
   name: "rings",
   version: 1,
   label: "Rings",
-  description: "Concentric circles around a drifting center, solid or stroked",
+  description: "Concentric circles, filled or stroked",
   size: { width: 320, height: 320 },
   render: renderRings
 };
