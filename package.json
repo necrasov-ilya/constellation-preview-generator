@@ -1,0 +1,17 @@
+{
+  "name": "constellation-preview-generator",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Deterministic generative previews and identities as pure SVG",
+  "scripts": {
+    "build": "pnpm -r build",
+    "examples": "node scripts/generate-examples.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "~5.7.3"
+  }
+}

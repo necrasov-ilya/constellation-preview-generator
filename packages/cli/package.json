@@ -1,0 +1,21 @@
+{
+  "name": "constellation-cli",
+  "version": "0.1.0",
+  "description": "CLI for constellation-preview: deterministic generative SVG previews",
+  "type": "module",
+  "bin": {
+    "constellation": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "constellation-preview": "workspace:*"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
